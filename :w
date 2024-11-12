@@ -3,7 +3,6 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import {
     faHouse,
     faLightbulb,
@@ -11,18 +10,19 @@ import {
     faAddressBook,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { isExternal } from "util/types";
 
 export function MenuBar() {
     const pathname = usePathname();
-    type MenuItems = {
+    type MenuItems[] = {
         id: string;
         icon: IconDefinition;
         label: string;
         href: string;
         isExternal: boolean;
-    };
+    }
 
-    const menuItems: MenuItems[] = [
+    const menuItems = [
         {
             id: "home",
             icon: faHouse,
@@ -60,7 +60,7 @@ export function MenuBar() {
         },
     ];
 
-    const renderLink = (item: MenuItems) => {
+    const renderLink = (item: {id: string, icon: }) => {
         const isActive = pathname === item.href;
         const linkContent = (
             <button
