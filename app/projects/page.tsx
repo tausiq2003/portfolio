@@ -36,7 +36,7 @@ export default function Projects() {
                             {/*Quick fix*/}
 
                             <Link href={ele.youtubeDemo} target="_blank">
-                                <button className="relative bg-violet-900 text-gray-100 font-medium py-2 px-4 rounded transition group max-xs:mt-2">
+                                <button className="relative bg-violet-900 text-gray-100 font-medium py-2 px-4 rounded transition group max-[270px]:mt-2">
                                     YouTube
                                     <FontAwesomeIcon
                                         icon={faYoutube}
