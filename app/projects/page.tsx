@@ -6,9 +6,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 export default function Projects() {
     return (
         <main className="max-w-2xl m-auto px-4 max-lg:scale-90 ">
-            <h1 className="text-3xl font-bold text-purple-400 mb-6">
-                Projects
-            </h1>
+            <h1 className="text-2xl text-purple-400 mb-6">Projects</h1>
             <div className="space-y-6">
                 {projDetails.map((ele) => (
                     <div

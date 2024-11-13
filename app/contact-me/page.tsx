@@ -11,9 +11,11 @@ import Link from "next/link";
 export default function Contact() {
     return (
         <main className="max-w-2xl mt-20 m-auto max-lg:px-10">
-            <h4 className="text-2xl text-purple-400">Connect with me</h4>
-            <p className="ml-2 mt-1.5">You can connect with me: </p>
-            <div className="flex flex-row justify-start gap-6 ml-4 mt-4">
+            <h4 className="text-3xl text-purple-400">Connect with me</h4>
+            <p className="mt-4 ml-2 mt-1.5 text-2xl">
+                You can connect with me:{" "}
+            </p>
+            <div className="flex flex-row justify-start gap-8 ml-4 mt-8 flex-wrap">
                 <Link
                     target="_blank"
                     href="https://x.com/tausiqtweets"
@@ -21,7 +23,7 @@ export default function Contact() {
                 >
                     <FontAwesomeIcon
                         icon={faXTwitter}
-                        size="xl"
+                        size="2xl"
                         className="active:text-purple-700 hover:text-purple-400"
                     />
                 </Link>
@@ -32,7 +34,7 @@ export default function Contact() {
                 >
                     <FontAwesomeIcon
                         icon={faLinkedin}
-                        size="xl"
+                        size="2xl"
                         className="active:text-purple-700 hover:text-purple-400"
                     />
                 </Link>
@@ -43,7 +45,7 @@ export default function Contact() {
                 >
                     <FontAwesomeIcon
                         icon={faYoutube}
-                        size="xl"
+                        size="2xl"
                         className="active:text-purple-700 hover:text-purple-400"
                     />
                 </Link>
@@ -54,7 +56,7 @@ export default function Contact() {
                 >
                     <FontAwesomeIcon
                         icon={faGithub}
-                        size="xl"
+                        size="2xl"
                         className="active:text-purple-700 hover:text-purple-400"
                     />
                 </Link>
@@ -65,13 +67,13 @@ export default function Contact() {
                 >
                     <FontAwesomeIcon
                         icon={faReddit}
-                        size="xl"
+                        size="2xl"
                         className="active:text-purple-700 hover:text-purple-400"
                     />
                 </Link>
             </div>
-            <div className="ml-2 mt-4">
-                <p>
+            <div className="ml-2 mt-8">
+                <p className="text-2xl">
                     Contact me at:{" "}
                     <Link
                         target="_blank"
@@ -86,13 +88,13 @@ export default function Contact() {
                     </Link>
                 </p>
             </div>
-            <div className="ml-2 mt-4">
-                <p>
+            <div className="ml-2 mt-8">
+                <p className="text-2xl">
                     RSS
                     <FontAwesomeIcon
                         icon={faRss}
                         size="xl"
-                        className="ml-2 active:text-purple-700 hover:text-purple-400"
+                        className="ml-4 active:text-purple-700 hover:text-purple-400"
                     />
                 </p>
             </div>
