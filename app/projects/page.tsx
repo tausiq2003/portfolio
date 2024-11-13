@@ -5,7 +5,7 @@ import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 export default function Projects() {
     return (
-        <main className="max-w-2xl m-auto">
+        <main className="max-w-2xl m-auto px-4 max-lg:scale-90 ">
             <h1 className="text-3xl font-bold text-purple-400 mb-6">
                 Projects
             </h1>
@@ -33,10 +33,11 @@ export default function Projects() {
                                     <span className="absolute inset-0 border-2 border-transparent group-hover:border-black rounded transition duration-300 ease-in-out"></span>
                                 </button>
                             </Link>
+                            {/*Quick fix*/}
 
                             <Link href={ele.youtubeDemo} target="_blank">
-                                <button className="relative bg-violet-900 text-gray-100 font-medium py-2 px-4 rounded transition group">
-                                    YouTube Demo
+                                <button className="relative bg-violet-900 text-gray-100 font-medium py-2 px-4 rounded transition group max-xs:mt-2">
+                                    YouTube
                                     <FontAwesomeIcon
                                         icon={faYoutube}
                                         className="ml-2"

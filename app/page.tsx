@@ -3,7 +3,7 @@ import Link from "next/link";
 export default async function Home() {
     return (
         <>
-            <main className="max-w-2xl mt-20 m-auto max-lg:px-10">
+            <main className="max-w-2xl mt-20 m-auto max-lg:px-10 max-lg:scale-75">
                 <h3 className="text-3xl">Hey everyone! </h3>
                 <div className="flex justify-between">
                     <h1 className="text-3xl align-middle mt-12">I&apos;m</h1>

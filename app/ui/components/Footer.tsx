@@ -119,7 +119,10 @@ export function MenuBar() {
 
                 <ul className="h-full flex items-center justify-around px-6 relative z-10">
                     {menuItems.map((item) => (
-                        <li key={item.id} className="relative group">
+                        <li
+                            key={item.id}
+                            className="relative group w-full md:w-1/2 lg:w-1/3 xl:w-1/4"
+                        >
                             {renderLink(item)}
                         </li>
                     ))}
