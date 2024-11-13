@@ -4,9 +4,9 @@ export default async function Home() {
     return (
         <>
             <main className="max-w-2xl mt-20 m-auto max-md:scale-75">
-                <h3 className="text-3xl">Hey everyone! </h3>
+                <h1 className="text-3xl">Hey everyone! </h1>
                 <div className="flex justify-between">
-                    <h1 className="text-3xl align-middle mt-12">I&apos;m</h1>
+                    <h2 className="text-3xl align-middle mt-12">I&apos;m</h2>
                     <div className="relative w-70 h-70">
                         <Image
                             alt="Profile picture"
@@ -22,7 +22,7 @@ export default async function Home() {
                 <span className="text-4xl"> Tausiq Samantaray</span>
                 <br />
                 <br />
-                <h3 className="text-2xl text-purple-400">About me</h3>
+                <h1 className="text-2xl text-purple-400">About me</h1>
                 <p className="text-xl text-justify">
                     I am a programmer, who is having a keen interest to learn
                     different things. Curious to know different things. Decent
@@ -43,7 +43,7 @@ export default async function Home() {
                         Resume
                     </button>
                 </Link>
-                <h3 className="text-2xl text-purple-400 mt-2">Education</h3>
+                <h1 className="text-2xl text-purple-400 mt-2">Education</h1>
                 <div>
                     <Link href="https://utkaluniversity.ac.in/" target="_blank">
                         <div className="flex mt-4 flex-row justify-between">

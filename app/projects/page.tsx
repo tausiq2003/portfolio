@@ -15,7 +15,7 @@ export default function Projects() {
                         key={ele.name}
                         className="bg-[#904BAA] text-gray-200 rounded-lg p-6"
                     >
-                        <h2 className="text-xl font-semibold text-gray-100 mb-2">
+                        <h2 className="text-xl font-semibold text-white mb-2">
                             {ele.name}
                         </h2>
                         <p className="text-sm text-white mb-4">
@@ -24,7 +24,7 @@ export default function Projects() {
 
                         <div className="space-x-3 mb-4">
                             <Link href={ele.link} target="_blank">
-                                <button className="relative bg-violet-900 text-gray-100 font-medium py-2 px-4 rounded transition group">
+                                <button className="relative bg-violet-900 text-white font-medium py-2 px-4 rounded transition group">
                                     Project Link
                                     <FontAwesomeIcon
                                         icon={faGithub}
@@ -36,7 +36,7 @@ export default function Projects() {
                             {/*Quick fix*/}
 
                             <Link href={ele.youtubeDemo} target="_blank">
-                                <button className="relative bg-violet-900 text-gray-100 font-medium py-2 px-4 rounded transition group max-[300px]:mt-4">
+                                <button className="relative bg-violet-900 text-white font-medium py-2 px-4 rounded transition group max-[300px]:mt-4">
                                     YouTube
                                     <FontAwesomeIcon
                                         icon={faYoutube}
@@ -48,7 +48,7 @@ export default function Projects() {
 
                             {ele.deployedLink && ele.deployedLink !== "" && (
                                 <Link href={ele.deployedLink} target="_blank">
-                                    <button className="relative bg-violet-900 text-gray-100 font-medium py-2 px-4 rounded transition group">
+                                    <button className="relative bg-violet-900 text-white font-medium py-2 px-4 rounded transition group">
                                         Deployed Project
                                         <FontAwesomeIcon
                                             icon={faGlobe}
@@ -60,7 +60,7 @@ export default function Projects() {
                             )}
                         </div>
 
-                        <p className="text-sm text-gray-400 mb-3">
+                        <p className="text-sm text-white mb-3">
                             {ele.from} - {ele.to}
                         </p>
 
@@ -68,7 +68,7 @@ export default function Projects() {
                             {ele.skills.map((skill, index) => (
                                 <span
                                     key={index}
-                                    className="bg-[#66788E] text-gray-300 py-1 px-3 rounded-full text-xs font-medium"
+                                    className="bg-[#66788E] text-white py-1 px-3 rounded-full text-xs font-medium"
                                 >
                                     {skill}
                                 </span>
