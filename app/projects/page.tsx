@@ -10,7 +10,7 @@ export default function Projects() {
                 Projects
             </h1>
             <div className="space-y-6">
-                {projDetails.reverse().map((ele) => (
+                {projDetails.map((ele) => (
                     <div
                         key={ele.name}
                         className="bg-[#904BAA] text-gray-200 rounded-lg p-6"
@@ -36,7 +36,7 @@ export default function Projects() {
                             {/*Quick fix*/}
 
                             <Link href={ele.youtubeDemo} target="_blank">
-                                <button className="relative bg-violet-900 text-gray-100 font-medium py-2 px-4 rounded transition group max-[270px]:mt-2">
+                                <button className="relative bg-violet-900 text-gray-100 font-medium py-2 px-4 rounded transition group max-[300px]:mt-4">
                                     YouTube
                                     <FontAwesomeIcon
                                         icon={faYoutube}

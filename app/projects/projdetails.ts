@@ -1,4 +1,4 @@
-export const projDetails = [
+const projdetails = [
     {
         name: "Newsletter System",
         link: "https://github.com/tausiq2003/cs50-final-project",
@@ -56,3 +56,4 @@ export const projDetails = [
     },
     //fuck those projects
 ];
+export const projDetails = projdetails.reverse();

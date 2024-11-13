@@ -54,7 +54,7 @@ export function MenuBar() {
         {
             id: "github",
             icon: faGithub,
-            label: "Link of this portfolio",
+            label: "Source code",
             href: "https://github.com/tausiq2003/portfolio",
             isExternal: true,
         },
