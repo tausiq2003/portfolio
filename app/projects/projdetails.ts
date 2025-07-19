@@ -1,4 +1,18 @@
-const projdetails = [
+export const projDetails = [
+    {
+        name: "Chess-Analyze",
+        link: "https://github.com/tausiq2003/analyze-chess",
+        deployedLink: "https://analyze-chess.tausiqsama.me/",
+        youtubeDemo: "https://www.youtube.com/watch?v=P0t1GLgNMKk",
+        article: "https://publish.tausiqsama.me/arch/chess-analyze",
+        description:
+            "A chess analysis website that allows users to analyze their chess games using the Stockfish engine, with a user-friendly interface and real-time analysis.",
+        from: "Mar 2025",
+        to: "Jul 2025",
+        skills: ["nextjs", "webworkers", "stockfish", "typescript"],
+    },
+];
+const sideProjdetails = [
     {
         name: "Newsletter System",
         link: "https://github.com/tausiq2003/cs50-final-project",
@@ -56,4 +70,4 @@ const projdetails = [
     },
     //fuck those projects
 ];
-export const projDetails = projdetails.reverse();
+export const sideprojdetails = sideProjdetails.reverse();
