@@ -36,18 +36,19 @@ export default function Projects() {
                                         <span className="absolute inset-0 border-2 border-transparent group-hover:border-black rounded transition duration-300 ease-in-out"></span>
                                     </button>
                                 </Link>
-
-                                <Link href={ele.youtubeDemo} target="_blank">
-                                    <button className="relative bg-violet-900 text-white font-medium py-2 px-4 rounded transition group">
-                                        YouTube
-                                        <FontAwesomeIcon
-                                            icon={faYoutube}
-                                            className="ml-2"
-                                        />
-                                        <span className="absolute inset-0 border-2 border-transparent group-hover:border-red-600 rounded transition duration-300 ease-in-out"></span>
-                                    </button>
-                                </Link>
-
+                                {ele.deployedLink &&
+                                    ele.deployedLink !== "" && (
+                                        <Link href={ele.youtubeDemo} target="_blank">
+                                            <button className="relative bg-violet-900 text-white font-medium py-2 px-4 rounded transition group">
+                                                YouTube
+                                                <FontAwesomeIcon
+                                                    icon={faYoutube}
+                                                    className="ml-2"
+                                                />
+                                                <span className="absolute inset-0 border-2 border-transparent group-hover:border-red-600 rounded transition duration-300 ease-in-out"></span>
+                                            </button>
+                                        </Link>
+                                    )}
                                 {ele.deployedLink &&
                                     ele.deployedLink !== "" && (
                                         <Link
