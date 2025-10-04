@@ -11,6 +11,14 @@ export const projDetails = [
         to: "Jul 2025",
         skills: ["nextjs", "webworkers", "stockfish", "typescript"],
     },
+    {
+        name: "url-shortner-backend",
+        link: "https://github.com/tausiq2003/bp-1-url-shortener",
+        description: "This is a backend focused project made with Typescript, Express, Postgres, with Zod validation using Drizzle ORM. This project is a url-shortener project which takes short code and target url and assigns the short code and redirects to the target url when we GET to the short code. This project has two tables, users and urls, where users stores the user details, and urls stores the url details (about short code and target url). Authentication is done through jwt.",
+        from: "Sept 2025",
+        to: "Sept 2025",
+        skills: ["typescript", "expressjs", "postgresql", "nodejs"],
+    },
 ];
 const sideProjdetails = [
     {
