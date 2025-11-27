@@ -2,7 +2,7 @@ import Link from "next/link";
 import { projDetails, sideProjDetails, Project } from "./projdetails";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe, IconDefinition } from "@fortawesome/free-solid-svg-icons";
 
 function ActionButton({
     href,
@@ -11,7 +11,7 @@ function ActionButton({
 }: {
     href?: string;
     label: string;
-    icon?: any;
+    icon?: IconDefinition;
 }) {
     if (!href || href.trim() === "") return null;
     return (
