@@ -1,5 +1,5 @@
 export const projDetails = [
-      {
+    {
         name: "project-camp-backend",
         link: "https://github.com/tausiq2003/moments",
         description: "To be added",
@@ -9,41 +9,43 @@ export const projDetails = [
         from: "Nov 2025",
         to: "Present",
         skills: ["typescript", "nextjs", "postgres"],
-      },
-      {
+    },
+    {
         name: "project-camp-backend",
         link: "https://github.com/tausiq2003/bp-2-project-mgmt",
-        description: "https://github.com/tausiq2003/bp-2-project-mgmt/blob/master/PRD.md",
+        description:
+            "https://github.com/tausiq2003/bp-2-project-mgmt/blob/master/PRD.md",
         deployedLink: "",
         youtubeDemo: "",
         article: "",
         from: "Sept 2025",
         to: "Oct 2025",
         skills: ["typescript", "expressjs", "mongodb", "nodejs", "docker"],
-     },
-     {
+    },
+    {
         name: "videotube",
         link: "https://github.com/tausiq2003/bp-3-youtube-backend",
-        description: "This is a backend focused project build with Typescript, Express, MongoDB, and with Zod validation. Images and videos are first stored on server with Multer then deleted after uploading to cloudinary. Authentication is JWT-based, which consists of access tokens and refresh tokens, where access tokens are used to carry the authorized requests and refresh tokens are used to refresh access tokens. A user can create, update its profile. Also, user can upload videos, create tweets, create comments for videos and tweets, can like videos, tweets and comments and dislike too. A user can create playlists where it can keep videos. This project has 7 MongoDB documents: users, videos, tweets, playlists,comments, likes, subscriptions. users has all the user information and watch history too. videos has all the videos uploaded by different users and there duration and views. tweets has all the tweets uploaded by different users. playlists are all the playlists uploaded by the users and they are public. comments contains the all-time comments posted by different users on videos and tweets. likes contains all the documents of videos, tweets and comments. subscriptions stores all the subscriber, subscription data in document.
-",
+        description:
+            "This is a backend focused project build with Typescript, Express, MongoDB, and with Zod validation. Images and videos are first stored on server with Multer then deleted after uploading to cloudinary. Authentication is JWT-based, which consists of access tokens and refresh tokens, where access tokens are used to carry the authorized requests and refresh tokens are used to refresh access tokens. A user can create, update its profile. Also, user can upload videos, create tweets, create comments for videos and tweets, can like videos, tweets and comments and dislike too. A user can create playlists where it can keep videos. This project has 7 MongoDB documents: users, videos, tweets, playlists,comments, likes, subscriptions. users has all the user information and watch history too. videos has all the videos uploaded by different users and there duration and views. tweets has all the tweets uploaded by different users. playlists are all the playlists uploaded by the users and they are public. comments contains the all-time comments posted by different users on videos and tweets. likes contains all the documents of videos, tweets and comments. subscriptions stores all the subscriber, subscription data in document.",
         deployedLink: "",
         youtubeDemo: "",
         article: "",
         from: "Sept 2025",
         to: "Sept 2025",
         skills: ["typescript", "expressjs", "mongodb", "nodejs", "docker"],
-     },
-     {
+    },
+    {
         name: "url-shortner-backend",
         link: "https://github.com/tausiq2003/bp-1-url-shortener",
-        description: "This is a backend focused project made with Typescript, Express, Postgres, with Zod validation using Drizzle ORM. This project is a url-shortener project which takes short code and target url and assigns the short code and redirects to the target url when we GET to the short code. This project has two tables, users and urls, where users stores the user details, and urls stores the url details (about short code and target url). Authentication is done through jwt.",
+        description:
+            "This is a backend focused project made with Typescript, Express, Postgres, with Zod validation using Drizzle ORM. This project is a url-shortener project which takes short code and target url and assigns the short code and redirects to the target url when we GET to the short code. This project has two tables, users and urls, where users stores the user details, and urls stores the url details (about short code and target url). Authentication is done through jwt.",
         deployedLink: "",
         youtubeDemo: "",
         article: "",
         from: "Sept 2025",
         to: "Sept 2025",
         skills: ["typescript", "expressjs", "postgresql", "nodejs", "docker"],
-    }, 
+    },
     {
         name: "Chess-Analyze",
         link: "https://github.com/tausiq2003/analyze-chess",
@@ -55,8 +57,7 @@ export const projDetails = [
         from: "Mar 2025",
         to: "Jul 2025",
         skills: ["nextjs", "webworkers", "stockfish", "typescript"],
-    }
-   
+    },
 ];
 const sideProjdetails = [
     {
@@ -64,8 +65,7 @@ const sideProjdetails = [
         link: "https://github.com/tausiq2003/shell",
         deployedLink: "",
         youtubeDemo: "",
-        description:
-            "To be added",
+        description: "To be added",
         from: "Nov 2025",
         to: "Present",
         skills: ["golang", "linux"],
@@ -124,6 +124,6 @@ const sideProjdetails = [
         from: "Dec 2022",
         to: "Dec 2022",
         skills: ["python", "html", "css"],
-    }
+    },
 ];
 export const sideprojdetails = sideProjdetails.reverse();
