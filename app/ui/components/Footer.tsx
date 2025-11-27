@@ -41,7 +41,7 @@ export function MenuBar() {
             id: "blogs",
             icon: faFolder,
             label: "Blogs",
-            href: "https://publish.tausiqsama.me",
+            href: "https://publish.tausiqsama.com",
             isExternal: true,
         },
         {
