@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { projDetails, sideprojdetails } from "./projdetails";
+import { projDetails, sideProjDetails } from "./projdetails";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
@@ -104,7 +104,7 @@ export default function Projects() {
                     Side Projects
                 </summary>
                 <div className="space-y-6 mt-4">
-                    {sideprojdetails.map((ele) => (
+                    {sideProjDetails.map((ele) => (
                         <div
                             key={ele.name}
                             className="bg-[#904BAA] text-gray-200 rounded-lg p-4 sm:p-6"
