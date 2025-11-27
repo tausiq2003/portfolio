@@ -1,6 +1,6 @@
 export const projDetails = [
     {
-        name: "project-camp-backend",
+        name: "moments",
         link: "https://github.com/tausiq2003/moments",
         description: "To be added",
         deployedLink: "",
