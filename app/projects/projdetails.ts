@@ -59,7 +59,7 @@ export const projDetails = [
         skills: ["nextjs", "webworkers", "stockfish", "typescript"],
     },
 ];
-const sideProjdetails = [
+export const sideProjdetails = [
     {
         name: "shell",
         link: "https://github.com/tausiq2003/shell",
@@ -126,4 +126,3 @@ const sideProjdetails = [
         skills: ["python", "html", "css"],
     },
 ];
-export const sideprojdetails = sideProjdetails.reverse();
